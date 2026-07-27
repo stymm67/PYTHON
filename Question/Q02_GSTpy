@@ -1,0 +1,7 @@
+# Write a python program to calculate the BILL with GST.
+product_price = float(input("Enter the price of product : "))
+GST = product_price *  0.18
+print(" GST Price : " , GST)
+finalAmount = product_price + GST
+print("Total = " , finalAmount)
+
