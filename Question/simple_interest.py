@@ -3,9 +3,9 @@ principle = float(input("Enter Your Priciple : "))
 rate = float(input("Enter Your Rate : "))
 time = float(input("Enter Yout Time "))
 
-amount = (principle * rate * time)/100
-print(amount)
+SimpleInterst = (principle * rate * time)/100
+print(SimpleInterst)
 
-totalSI = amount + principle
+totalAmount = SimpleInterst + principle
 
-print("Simple Interest " , totalSI)
+print("Simple Interest " , totalAmount)
